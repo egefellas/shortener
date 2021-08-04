@@ -7,9 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class UrlServiceTest extends TestCase
 {
-
     public function testGetUrl()
     {
-
     }
 }

@@ -19,7 +19,7 @@ class UrlRepository implements UrlRepositoryInterface
     public function getUrl($short): ?string
     {
         $model = $this->model->where('url', $short)->first();
-        if($model){
+        if ($model) {
             return $model->url;
         }
 
