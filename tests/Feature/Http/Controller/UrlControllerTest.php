@@ -19,7 +19,7 @@ class UrlControllerTest extends TestCase
      * @covers ::__construct
      * @covers ::getUrl
      */
-    public function testUrlCreate()
+    public function testGetUrl()
     {
         $url = $this->faker->url;
         $model = Url::factory()->create(['url' => $url]);
