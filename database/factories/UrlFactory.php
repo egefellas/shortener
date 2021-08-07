@@ -27,5 +27,4 @@ class UrlFactory extends Factory
             'url' => $this->faker->url,
         ];
     }
-
 }
