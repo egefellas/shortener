@@ -4,7 +4,7 @@ namespace Tests\Feature\Http\Controller;
 
 use App\Models\Url;
 use Illuminate\Foundation\Testing\WithFaker;
-use Tests\TestCase;
+use Tests\Feature\TestCase;
 
 /**
  * Class UrlControllerTest

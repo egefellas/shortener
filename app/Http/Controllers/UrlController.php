@@ -3,13 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Services\UrlService;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class UrlController extends Controller
 {
-    use RefreshDatabase;
-
-    /** @var UrlService */
+    /**
+     * @var UrlService
+     */
     private UrlService $urlService;
 
     public function __construct(UrlService $urlService)
