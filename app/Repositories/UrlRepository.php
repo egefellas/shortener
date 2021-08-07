@@ -49,7 +49,6 @@ class UrlRepository implements UrlRepositoryInterface
         return ['short' => $urlModel->short, 'url' => $urlModel->url];
     }
 
-
     /**
      * @return string
      * @codeCoverageIgnore
