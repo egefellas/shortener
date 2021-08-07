@@ -2,24 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Services\UrlService;
-use Illuminate\Http\Request;
+use App\Services\UrlService;
 
 class UrlController extends Controller
 {
     /**
      * @var UrlService
      */
-    private $urlService;
+    private UrlService $urlService;
 
     public function __construct(UrlService $urlService)
     {
         $this->urlService = $urlService;
     }
 
-    public function getUrl(string $short)
+    /**
+     * @param string $short
+     * @return string|null
+     */
+    public function getUrl(string $short): ?string
     {
-        $url = $this->urlService->getUrl($short);
-        dd($url);
+        return $this->urlService->getUrl($short);
     }
 }

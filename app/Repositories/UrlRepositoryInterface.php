@@ -6,7 +6,7 @@ interface UrlRepositoryInterface
 {
     /**
      * @param $short
-     * @return string
+     * @return string|null
      */
     public function getUrl($short): ?string;
 }

@@ -1,15 +1,13 @@
 <?php
 
-namespace App\Http\Services;
+namespace App\Services;
 
 use App\Repositories\UrlRepositoryInterface;
 
 class UrlService
 {
-    /**
-     * @var UrlRepositoryInterface
-     */
-    private $urlRepository;
+    /** @var UrlRepositoryInterface */
+    private UrlRepositoryInterface $urlRepository;
 
     /**
      * UrlService constructor.
@@ -22,7 +20,7 @@ class UrlService
 
     /**
      * @param string $short
-     * @return string
+     * @return string|null
      */
     public function getUrl(string $short): ?string
     {
