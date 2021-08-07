@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 class SetCookies
 {
     const COOKIE_KEY = 'user.linKey';
-    
+
     /**
      * Handle an incoming request.
      *
@@ -25,6 +25,5 @@ class SetCookies
         }
 
         return $next($request);
-
     }
 }
