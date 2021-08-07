@@ -24,7 +24,7 @@ class UrlRequest extends FormRequest
     public function rules()
     {
         return [
-            'link' => 'required|active_url|url|min:10|max:50',
+            'link' => 'required|active_url|url|min:10',
         ];
     }
 
@@ -35,7 +35,6 @@ class UrlRequest extends FormRequest
             'link.active_url' => 'The field must be minimum 10 character.',
             'link.url' => 'The field under validation must be a valid URL.',
             'link.min' => 'The field must be minimum 10 character.',
-            'link.max' => 'The field can be maximum 50 character',
         ];
     }
 }

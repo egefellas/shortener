@@ -18,5 +18,5 @@ Route::get('/', function () {
 })->name('home');
 Route::name('url.')->group(function () {
     Route::get('{url}', [UrlController::class, 'getUrl'])->name('get');
-    Route::post('/url/shortener', [UrlController::class, 'setUrl'])->name('set');
+    Route::post('/url/create', [UrlController::class, 'setUrl'])->name('set');
 });

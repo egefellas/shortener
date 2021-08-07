@@ -7,14 +7,14 @@ use App\Http\Requests\UrlRequest;
 interface UrlRepositoryInterface
 {
     /**
-     * @param $short
+     * @param string $short
      * @return string|null
      */
-    public function getUrl($short): ?string;
+    public function getUrl(string $short): ?string;
 
     /**
-     * @param $request
-     * @return string|null
+     * @param string $link
+     * @return array
      */
-    public function setUrl($request);
+    public function setUrl(string $link): array;
 }

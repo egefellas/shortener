@@ -25,6 +25,13 @@ class UrlRepositoryTest extends RepositoryTestSuite
         $this->repository = new UrlRepository($this->urlModel);
     }
 
+    public function setMockRepository(array $methods = []): void
+    {
+        $this->repository = $this->getMockBuilder(UrlRepository::class)
+            ->setConstructorArgs([$this->urlModel])
+            ->onlyMethods($methods)
+            ->getMock();
+    }
 
     /**
      * @covers ::__construct
@@ -43,7 +50,6 @@ class UrlRepositoryTest extends RepositoryTestSuite
     }
 
     /**
-     * @covers ::__construct
      * @covers ::getUrl
      */
     public function testGetUrlWhenNoData()
@@ -54,5 +60,29 @@ class UrlRepositoryTest extends RepositoryTestSuite
         $this->urlModel->shouldReceive('first')->andReturnNull();
 
         $this->assertNull($this->repository->getUrl($short));
+    }
+
+    /**
+     * @covers ::setUrl
+     */
+    public function testSetUrl()
+    {
+        $this->setMockRepository(['generateShortUrl']);
+
+        $link = $this->faker->word;
+        $short = $this->faker->word;
+
+        $urlModel = Url::factory()->make(['url' => $link, 'short' => $short]);
+
+        $this->repository->expects($this->once())->method('generateShortUrl')->willReturn($short);
+        $this->urlModel->shouldReceive('create')->with([
+            'url' => $link,
+            'short' => $short,
+        ])->andReturn($urlModel);
+
+        $this->assertEquals(
+            ['short' => $urlModel->short, 'url' => $urlModel->url],
+            $this->repository->setUrl($link)
+        );
     }
 }

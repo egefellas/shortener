@@ -38,4 +38,18 @@ class UrlServiceTest extends ServiceTestSuite
 
         $this->assertEquals($url, $this->service->getUrl($short));
     }
+
+    /**
+     * @covers ::__construct
+     * @covers ::setUrl
+     */
+    public function testSetUrl()
+    {
+        $link = $this->faker->word;
+        $expected = $this->faker->words;
+
+        $this->urlRepository->shouldReceive('setUrl')->with($link)->andReturn($expected);
+
+        $this->assertEquals($expected, $this->service->setUrl($link));
+    }
 }

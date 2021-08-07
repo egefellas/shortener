@@ -28,6 +28,6 @@ class UrlController extends Controller
 
     public function setUrl(UrlRequest $request)
     {
-        return $this->urlService->setUrl($request);
+        return $this->urlService->setUrl($request->link);
     }
 }

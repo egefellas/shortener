@@ -29,11 +29,11 @@ class UrlService
     }
 
     /**
-     * @param $request
-     * @return string|null
+     * @param string $link
+     * @return array
      */
-    public function setUrl($request)
+    public function setUrl(string $link): array
     {
-        return $this->urlRepository->setUrl($request);
+        return $this->urlRepository->setUrl($link);
     }
 }

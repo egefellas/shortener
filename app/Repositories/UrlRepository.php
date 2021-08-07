@@ -36,20 +36,25 @@ class UrlRepository implements UrlRepositoryInterface
     }
 
     /**
-     * @param UrlRequest $request
-     * @return string|null
+     * @param string $link
+     * @return array
      */
-    public function setUrl($request)
+    public function setUrl(string $link): array
     {
-        $url = new $this->model;
-        $url->url = $request->link;
-        $url->short = $this->generateSortUrl();
-        $url->save();
+        $urlModel = $this->model->create([
+            'url' => $link,
+            'short' => $this->generateShortUrl(),
+        ]);
 
-        return response()->json(['short' => $url->short, 'url' => $url->url], 200);
+        return ['short' => $urlModel->short, 'url' => $urlModel->url];
     }
 
-    private function generateSortUrl()
+
+    /**
+     * @return string
+     * @codeCoverageIgnore
+     */
+    public function generateShortUrl(): string
     {
         return substr(base_convert(sha1(uniqid(mt_rand())), 16, 36), 0, 7);
     }
