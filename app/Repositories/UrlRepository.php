@@ -2,7 +2,9 @@
 
 namespace App\Repositories;
 
+use App\Http\Requests\UrlRequest;
 use App\Models\Url;
+use Illuminate\Support\Facades\Cookie;
 
 class UrlRepository implements UrlRepositoryInterface
 {
@@ -31,5 +33,28 @@ class UrlRepository implements UrlRepositoryInterface
         }
 
         return null;
+    }
+
+    /**
+     * @param string $link
+     * @return array
+     */
+    public function setUrl(string $link): array
+    {
+        $urlModel = $this->model->create([
+            'url' => $link,
+            'short' => $this->generateShortUrl(),
+        ]);
+
+        return ['short' => $urlModel->short, 'url' => $urlModel->url];
+    }
+
+    /**
+     * @return string
+     * @codeCoverageIgnore
+     */
+    public function generateShortUrl(): string
+    {
+        return substr(base_convert(sha1(uniqid(mt_rand())), 16, 36), 0, 7);
     }
 }

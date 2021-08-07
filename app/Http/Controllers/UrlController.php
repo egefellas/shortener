@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UrlRequest;
 use App\Services\UrlService;
 
 class UrlController extends Controller
@@ -23,5 +24,10 @@ class UrlController extends Controller
     public function getUrl(string $short): ?string
     {
         return $this->urlService->getUrl($short);
+    }
+
+    public function setUrl(UrlRequest $request)
+    {
+        return $this->urlService->setUrl($request->link);
     }
 }

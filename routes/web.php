@@ -1,4 +1,5 @@
 <?php
+
 use App\Http\Controllers\UrlController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,4 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
-Route::get('{url}', [UrlController::class, 'getUrl']);
+Route::name('url.')->group(function () {
+    Route::get('{url}', [UrlController::class, 'getUrl'])->name('get');
+    Route::post('/url/create', [UrlController::class, 'setUrl'])->name('set');
+});

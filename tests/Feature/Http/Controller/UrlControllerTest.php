@@ -28,4 +28,17 @@ class UrlControllerTest extends TestCase
 
         $response->assertStatus(200)->assertSee($url);
     }
+
+    /**
+     * @covers ::__construct
+     * @covers ::setUrl
+     */
+    public function testSetUrl()
+    {
+        $url = $this->faker->url;
+
+        $response = $this->post('/url/create', ['link' => $url]);
+
+        $response->assertStatus(200)->assertJsonCount(2);
+    }
 }
