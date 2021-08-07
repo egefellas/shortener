@@ -7,6 +7,7 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
+    const SESSION_KEY = "user.linkey";
     /**
      * Register any application services.
      *
@@ -25,5 +26,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
+        if (!session()->has(self::SESSION_KEY) && is_null(session(self::SESSION_KEY))) {
+            session()->put(self::SESSION_KEY, uniqid('linkey.'));
+        }
     }
 }
