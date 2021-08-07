@@ -18,16 +18,13 @@
             overflow: hidden;
             background-color: #333;
         }
-
         .navbar li {
             float: left;
             border-right:1px solid #bbb;
         }
-
         .navbar li:last-child {
             border-right: none;
         }
-
         .navbar li a {
             display: block;
             color: white;
@@ -35,11 +32,9 @@
             padding: 15px 16px;
             text-decoration: none;
         }
-
         .navbar li a:hover:not(.active) {
             background-color: #111;
         }
-
         .active {
             background-color: #04AA6D;
         }
@@ -55,7 +50,6 @@
         @yield('content')
     </div>
 </div>
-
 
 @include('layouts.footer')
 
