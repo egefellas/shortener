@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use App\Http\Requests\UrlRequest;
 use App\Repositories\UrlRepositoryInterface;
 
 class UrlService
@@ -25,5 +26,14 @@ class UrlService
     public function getUrl(string $short): ?string
     {
         return $this->urlRepository->getUrl($short);
+    }
+
+    /**
+     * @param $request
+     * @return string|null
+     */
+    public function setUrl($request)
+    {
+        return $this->urlRepository->setUrl($request);
     }
 }
