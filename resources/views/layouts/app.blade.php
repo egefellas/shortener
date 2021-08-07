@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name') }}</title>
     <style>
-        body{
+        body {
             margin:0;
             padding:0;
         }
