@@ -8,8 +8,6 @@ use Illuminate\Support\Facades\Cookie;
 
 class UrlRepository implements UrlRepositoryInterface
 {
-    const COOKIE_KEY = 'user.linKey';
-
     /** @var Url */
     private Url $model;
 
@@ -39,13 +37,10 @@ class UrlRepository implements UrlRepositoryInterface
 
     /**
      * @param UrlRequest $request
-     * @return array|null
+     * @return string|null
      */
     public function setUrl($request)
     {
-        if (!Cookie::get(self::COOKIE_KEY)) {
-            Cookie::queue(self::COOKIE_KEY, uniqid('linKey'), 10080); // 1 week
-        }
         $url = new $this->model;
         $url->url = $request->link;
         $url->short = $this->generateSortUrl();
