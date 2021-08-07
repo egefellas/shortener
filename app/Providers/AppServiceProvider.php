@@ -26,6 +26,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
+
         if (!session()->has(self::SESSION_KEY) && session(self::SESSION_KEY) === null) {
             session()->put(self::SESSION_KEY, uniqid('linkey.'));
         }
