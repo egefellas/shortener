@@ -13,10 +13,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
 Route::name('url.')->group(function () {
     Route::get('{url}', [UrlController::class, 'getUrl'])->name('get');
-    Route::post('/url/create', [UrlController::class, 'setUrl'])->name('set');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';

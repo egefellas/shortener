@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\UrlController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::group(['prefix' => 'url', 'as' => 'url'], function () {
-    Route::post('create', [UrlController::class, 'createUrl']);
+    Route::post('create', [UrlController::class, 'setUrl']);
 });

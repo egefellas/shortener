@@ -37,7 +37,7 @@ class UrlControllerTest extends TestCase
     {
         $url = $this->faker->url;
 
-        $response = $this->post('/url/create', ['link' => $url]);
+        $response = $this->post('api/url/create', ['link' => $url]);
 
         $response->assertStatus(200)->assertJsonCount(2);
     }
