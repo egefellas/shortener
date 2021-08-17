@@ -26,7 +26,11 @@ class UrlController extends Controller
         return $this->urlService->getUrl($short);
     }
 
-    public function setUrl(UrlRequest $request)
+    /**
+     * @param UrlRequest $request
+     * @return array
+     */
+    public function setUrl(UrlRequest $request): array
     {
         return $this->urlService->setUrl($request->link);
     }
