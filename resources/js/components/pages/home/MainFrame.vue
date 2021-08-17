@@ -52,7 +52,7 @@
 
         data () {
             return {
-                link: 'http://www.google.com.tr',
+                link: null,
                 showError: false,
                 domain: window.domain,
                 shortUrlList: []
