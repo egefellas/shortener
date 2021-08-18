@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\UrlRequest;
 use App\Services\UrlService;
+use Illuminate\View\View;
 
 class UrlController extends Controller
 {
@@ -19,11 +20,14 @@ class UrlController extends Controller
 
     /**
      * @param string $short
-     * @return string|null
+     * @return View
      */
-    public function getUrl(string $short): ?string
+    public function getUrl(string $short)
     {
-        return $this->urlService->getUrl($short);
+        $array = compact('short');
+        $array['url'] = $this->urlService->getUrl($short);
+
+        return view('pages.redirect', ['variables' => $array]);
     }
 
     /**
