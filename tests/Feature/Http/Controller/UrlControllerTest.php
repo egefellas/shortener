@@ -26,7 +26,7 @@ class UrlControllerTest extends TestCase
 
         $response = $this->get($model->short);
 
-        $response->assertStatus(200)->assertSee($url);
+        $response->assertStatus(200)->assertSee('redirect');
     }
 
     /**
