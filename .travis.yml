@@ -1,0 +1,18 @@
+language: php # language
+
+php:
+  - 7.4
+
+services:
+  - mysql # will init MySQL
+
+before_script:
+  - cp .env.travis .env # copying .env.travis
+  - mysql -e 'create database testing;' # will run this command
+  - composer self-update
+  - composer install --no-interaction
+  - php artisan key:generate
+  - php artisan migrate --seed
+
+script:
+  - vendor/bin/phpunit # run PHPUnit
