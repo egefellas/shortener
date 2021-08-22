@@ -2,6 +2,8 @@ import { createApp } from 'vue'
 import Home from './components/pages/home/Index.vue'
 import Redirect from './components/pages/redirect/Index.vue'
 import PrivacyPolicy from './components/pages/legal/PrivacyPolicy'
+import Login from './components/pages/auth/Login'
+import Register from './components/pages/auth/Register'
 
 require('./bootstrap')
 require('alpinejs')
@@ -12,7 +14,9 @@ const app = createApp({
     components: {
         Home,
         Redirect,
-        PrivacyPolicy
+        PrivacyPolicy,
+        Login,
+        Register
     }
 })
 
