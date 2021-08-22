@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+})->name('privacy');
 Route::name('url.')->group(function () {
     Route::get('{url}', [UrlController::class, 'getUrl'])->name('get');
 });
