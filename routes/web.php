@@ -13,15 +13,17 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+require __DIR__.'/auth.php';
 
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+})->name('privacy');
 Route::name('url.')->group(function () {
     Route::get('{url}', [UrlController::class, 'getUrl'])->name('get');
 });
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
-
-require __DIR__.'/auth.php';
