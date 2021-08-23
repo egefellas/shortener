@@ -7,24 +7,27 @@
                 You can read more and make your cookie choices here.
                 By continuing to use this site you are giving us your consent to do this.
             </div>
-            <div class="py-3 px-6 inline-block"><a :href="privacy_link" class="underline text-white text-opacity-50">Learn More</a></div>
-            <button class="w-24 h-10 border-2 rounded inline-block font-extrabold px-0 mt-3" :click="addGotItCookie">GOT IT</button>
+            <div class="py-3 px-6 inline-block">
+                <a :href="privacy_link" class="underline text-white text-opacity-50">Learn More</a>
+            </div>
+            <button class="w-24 h-10 border-2 rounded inline-block font-extrabold px-0 mt-3"
+                    :click="addGotItCookie">GOT IT</button>
         </div>
     </div>
 </template>
 
 <script>
-export default {
-    name: 'Footer',
-    data () {
-        return {
-            privacy_link: window.domain+'privacy-policy'
-        }
-    },
-    methods: {
-        addGotItCookie: function (event) {
-            console.log('hi!');
+    export default {
+        name: 'Footer',
+        data () {
+            return {
+                privacy_link: window.domain+'privacy-policy'
+            }
+        },
+        methods: {
+            addGotItCookie: function (event) {
+                console.log('hi!');
+            }
         }
     }
-}
 </script>

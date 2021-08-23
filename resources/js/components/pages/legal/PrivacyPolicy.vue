@@ -21,8 +21,8 @@
                     branded
                     domains). This Privacy Policy also covers ShoLC’s treatment of any information about you that
                     ShoLC’s
-                    customers share with ShoLC.</p>
-
+                    customers share with ShoLC.
+                </p>
                 <p>This Privacy Policy does not apply to the practices of other businesses that ShoLC does not own or
                     control,
                     including other companies’ websites, services and applications (“Third Party Services”) that you can
@@ -30,7 +30,8 @@
                     through the Services, such as Facebook or Twitter, or to individuals that ShoLC does not manage or
                     employ.
                     We cannot take responsibility for the content or privacy policies of those Third Party Services. We
-                    encourage you to review the privacy policies of any Third Party Services you access.</p>
+                    encourage you to review the privacy policies of any Third Party Services you access.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Information We Collect</h3>
                 <p> ShoLC may collect personal information about you as described in this Privacy Policy when you (i)
                     register
@@ -41,8 +42,8 @@
                     We
                     collect the following types of information from you, some of which might be considered personal
                     information
-                    under applicable law.</p>
-
+                    under applicable law.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1"> When You Register for a ShoLC Account</h3>
                 <p>When you create an Account, we may collect personal information from you, such as your name, phone
                     number,
@@ -60,8 +61,8 @@
                     messages
                     through your Account settings, although ShoLC reserves the right to contact you when we believe it
                     is
-                    necessary, such as for administrative and account management purposes.</p>
-
+                    necessary, such as for administrative and account management purposes
+                </p>
                 <p>Some features of the Services allow registered users to provide their own content to the Services,
                     such as
                     written descriptions of URLs, comments, images and video. Unless you request deletion of your
@@ -69,8 +70,8 @@
                     information as described in this Privacy Policy, all content submitted by you to the Services may be
                     retained by ShoLC, even after you terminate your Account and may continue to be shared by third
                     parties, as
-                    described in this Privacy Policy.</p>
-
+                    described in this Privacy Policy.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">When You Create a ShoLC Link</h3>
                 <p>One feature of the Services is the ability to create shortened uniform resource locators (URLs) of
                     websites
@@ -84,8 +85,8 @@
                     which you
                     shortened the original URL, and if you share a ShoLC Link on a social networking platform, the name
                     of the
-                    platform and your username on that platform.</p>
-
+                    platform and your username on that platform.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">When You Interact With a ShoLC Link</h3>
                 <p>ShoLC automatically collects personal information about the interaction (such as clicks or views)
                     with every
@@ -105,8 +106,8 @@
                     activity.
                     Please see the “Information We May Share” section of this Privacy Policy for a description of how we
                     may
-                    share information we collect when you create, view or interact with ShoLC Links.</p>
-
+                    share information we collect when you create, view or interact with ShoLC Links.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Other Information We Automatically Collect</h3>
                 <p>When you visit the Site, we automatically collect (i) your IP address and location derived from the
                     IP
@@ -116,15 +117,14 @@
                     type of
                     data enables us and third parties authorized by us to figure out how often individuals use parts of
                     the Site
-                    so that we can analyze and improve them.</p>
-
+                    so that we can analyze and improve them.
+                </p>
                 <p>We may receive a confirmation when you open an email from us. We use this confirmation to improve our
-                    customer service.</p>
-
+                    customer service.
+                </p>
                 <p>ShoLC may use third-party APIs and software development kits (“SDKs”) to provide certain functions in
-                    our
-                    Services.</p>
-
+                    our Services.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Third Party Services</h3>
                 <p>Some features of the Services allow you to share your content and ShoLC Links through your accounts
                     with
@@ -139,29 +139,29 @@
                     which it was provided to us. We may also collect information about how you are using the Services to
                     interact with those connected Third Party Services. Note that Third Party Services may have the
                     ability to
-                    restrict the information that is provided to us based on your privacy settings of that account.</p>
-
+                    restrict the information that is provided to us based on your privacy settings of that account.
+                </p>
                 <p>To enable us to infer the location from the IP addresses of computers or devices that visit our
                     website or
                     click, view or interact with ShoLC links as described in this policy, we receive IP-based location
                     information from our third-party service provider. We also receive business contact information of
                     our
-                    business customer contacts and prospects from our third party service provider.</p>
-
+                    business customer contacts and prospects from our third party service provider.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Cookies and Other Similar Technologies</h3>
                 <p>ShoLC and its partners use cookies or similar technologies to analyze trends, administer the website,
                     track
                     users’ movements around the website, and to gather demographic information about our user base as a
-                    whole.</p>
-
+                    whole.
+                </p>
                 <p>Cookies are pieces of text that may be provided to your computer through your web browser when you
                     access a
                     website. Your browser stores cookies in a manner associated with each website you visit. We use
                     cookies to
                     enable our servers to recognize your web browser and tell us how and when you visit our Site and use
                     the
-                    Services through the web.</p>
-
+                    Services through the web.
+                </p>
                 <p>ShoLC cookies also allow ShoLC to track when you have clicked on a ShoLC Link. Each click of a ShoLC
                     Link is
                     tracked using a unique identifier assigned to you in one or more cookies stored by your web browser
@@ -170,15 +170,15 @@
                     information we
                     automatically collect when you use the Services, as described above, including your IP address,
                     ShoLC Links
-                    you click, ShoLC Links you create, and information with your Account if you have one.</p>
-
+                    you click, ShoLC Links you create, and information with your Account if you have one.
+                </p>
                 <p>Most browsers have an option for turning off the cookie feature, which will prevent your browser from
                     accepting new cookies, as well as (depending on the sophistication of your browser software)
                     allowing you to
                     decide on acceptance of each new cookie in a variety of ways. If you disable cookies, you will not
                     be able
-                    to use some features of the Services.</p>
-
+                    to use some features of the Services.
+                </p>
                 <p>We partner with third parties to track utilization and behavior on our websites, display advertising
                     on our
                     websites, and to manage our advertising on other sites. Our third-party partners may use cookies,
@@ -187,16 +187,16 @@
                     browsing
                     activities and interests. If you wish to opt out of interest-based advertising click here or if
                     located in
-                    the European Union click here.</p>
-
+                    the European Union click here.
+                </p>
                 <p>This Privacy Policy covers the use of cookies by ShoLC only and does not cover the use of cookies by
                     any
                     Third Party Services. ShoLC does not control when or how third parties place cookies on your
                     computer, such
                     as when you visit the website from a ShoLC Link. You can manage other companies’ cookies used for
                     online
-                    advertising by visiting the Digital Advertising Alliance’s Consumer Choice Page.</p>
-
+                    advertising by visiting the Digital Advertising Alliance’s Consumer Choice Page.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Opt-Out Mechanisms</h3>
                 <p>You may ask ShoLC not to associate your web browser or IP address with visits to the ShoLC.com
                     website or
@@ -218,22 +218,21 @@
                     automatically
                     collect the IP addresses of computers or mobile devices that click on or create ShoLC Links; we just
                     won’t
-                    associate them with your browser or ShoLC account.</p>
-
+                    associate them with your browser or ShoLC account.
+                </p>
                 <p>Cookies on ShoLC Links: Click Here</p>
-
                 <p>Cookies on sho.lc: Click Here</p>
-
                 <h3 class="font-bold uppercase mt-3 mb-1">Note Regarding Children</h3>
                 <p>We do not knowingly collect personal information from children. If we learn that we have collected
                     personal
                     information of a child under 13 (or older as required by applicable law), we will take steps to
                     delete such
-                    information from our files as soon as possible.</p>
-
+                    information from our files as soon as possible.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">How We Use Information</h3>
                 <p>We use the personal information we collect for a variety of administrative and business purposes
-                    to:</p>
+                    to:
+                </p>
                 <ul>
                     <li> operate our Site and provide the Services,</li>
                     <li> process and complete any transactions,</li>
@@ -251,7 +250,6 @@
                     <li> comply with any legal obligations, and</li>
                     <li> enforce our terms and as otherwise described in this Privacy Policy.</li>
                 </ul>
-
                 <h3 class="font-bold uppercase mt-3 mb-1">Usage Across Devices</h3>
                 <p>We may use the information we collect to make inferences that a unique individual has created or
                     interacted
@@ -264,8 +262,8 @@
                     mobile device connected to the same WiFi network, we may infer that a single individual created and
                     clicked
                     on the ShoLC links because both events were associated with the same IP address in the same time
-                    period.</p>
-
+                    period.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Other Legitimate Interests</h3>
                 <p>We also may use personal information to pursue legitimate interests, such as direct marketing,
                     research
@@ -273,21 +271,21 @@
                     malicious and
                     unlawful activities, or any other purpose disclosed to you at the time you provide personal
                     information or
-                    allowed by law.</p>
-
+                    allowed by law.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Information We Share</h3>
                 <p>The Services are designed to help you share information with others. In addition, we provide Services
                     to our
                     Customers that use ShoLC Link Metrics. As a result, some of the personal information generated
                     through your
-                    use of the Services is shared publicly or with third parties as described below.</p>
-
+                    use of the Services is shared publicly or with third parties as described below.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">ShoLC Links You Create</h3>
                 <p>Much of your activity on and through the Services is public by default. For example, when you create
                     a ShoLC
                     Link, the original URLs you have shortened and the corresponding ShoLC Links are publicly
-                    available.</p>
-
+                    available.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Account Information</h3>
                 <p>Where permitted by law, if you register a ShoLC Account with an email address on a domain owned by an
                     organization, (for example, an employer or educational institution where you have an email account),
@@ -296,8 +294,8 @@
                     created,
                     with that organization to explore the organization’s interest in creating or managing an enterprise
                     account
-                    or for related purposes.</p>
-
+                    or for related purposes.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Information We Share With Customers</h3>
                 <p>We may share the personal information we collect as described in this Privacy Policy with our
                     customers. When
@@ -315,8 +313,8 @@
                     identification of social networks on which the ShoLC Links appear. In addition, we may share ShoLC
                     Link
                     Metrics with customers to help them detect, deter and prevent malicious, fraudulent or unlawful
-                    activity.</p>
-
+                    activity.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Information You Elect to Share</h3>
                 <p>When creating a ShoLC Link, you can share that ShoLC Link through Third Party Services. Any
                     information that
@@ -330,8 +328,8 @@
                     through the
                     Services since ShoLC does not control and is not responsible for the privacy practices of these
                     Third Party
-                    Services.</p>
-
+                    Services.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Information Shared with Service Providers</h3>
                 <p>We may employ and contract with third parties to perform certain tasks on our behalf and under our
                     direction
@@ -344,20 +342,21 @@
                     with these Service Providers authorize them to use your information only as necessary to provide
                     services to
                     us. Transfers to subsequent third parties are covered by the service agreements with our
-                    Clients.</p>
-
+                    Clients.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Information Disclosed Pursuant to Business Transfers</h3>
                 <p>We may transfer and/or provide information about our users in connection with an acquisition, sale of
                     company
                     assets, or other situation where user information would be transferred as one of our business
                     assets. You
-                    will be notified via email and/or a prominent notice on our website.</p>
-
+                    will be notified via email and/or a prominent notice on our website.
+                </p>
                 <p>In such a case, the acquirer of ShoLC may continue to use your information as set forth in this
                     policy or as
-                    otherwise allowed by law.</p>
-
-                <h3 class="font-bold uppercase mt-3 mb-1">Information Disclosed for the Protection of ShoLC and Others</h3>
+                    otherwise allowed by law.
+                </p>
+                <h3 class="font-bold uppercase mt-3 mb-1">Information Disclosed for the Protection of ShoLC and
+                    Others</h3>
                 <p>ShoLC may access, read, preserve, and disclose any information it collects when it has a good faith
                     belief
                     that doing so is reasonably necessary to (i) comply with a law, regulation, or compulsory legal
@@ -372,16 +371,16 @@
                     includes
                     exchanging information with other companies and organizations for protection from malicious,
                     fraudulent or
-                    unlawful activity.</p>
-
+                    unlawful activity.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Information We Share With Your Consent</h3>
                 <p>We will share information about you when you instruct us to do so, such as when you share ShoLC Links
                     or
                     content with others through the Services or if we notify you that the information you provide will
                     be shared
                     in a particular manner and you provide such information (like sharing/posting it with a third-party
-                    Service).</p>
-
+                    Service).
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">INTERNATIONAL TRANSFERS</h3>
                 <p>EU-U.S. PRIVACY SHIELD AND SWISS-U.S. PRIVACY SHIELD</p>
                 <p>ShoLC, Inc. participates in and has certified its compliance with the EU-U.S. Privacy Shield
@@ -393,22 +392,22 @@
                     Shield Framework, to the Framework’s applicable Principles. To learn more about the Privacy Shield
                     Frameworks, and to view our certification, visit the U.S. Department of Commerce’s Privacy Shield
                     List.
-                    [https://www.privacyshield.gov]</p>
-
+                    [https://www.privacyshield.gov]
+                </p>
                 <p>ShoLC, Inc. is responsible for the processing of personal data it receives, under each Privacy Shield
                     Framework, and subsequently transfers to a third party acting as an agent on its behalf. ShoLC, Inc.
                     complies with the Privacy Shield Principles for all onward transfers of personal data from the EEA
                     and
-                    Switzerland, including the onward transfer liability provisions.</p>
-
+                    Switzerland, including the onward transfer liability provisions.
+                </p>
                 <p>With respect to personal data received or transferred pursuant to the Privacy Shield Frameworks,
                     ShoLC, Inc.
                     is subject to the regulatory enforcement powers of the U.S. Federal Trade Commission. In certain
                     situations,
                     we may disclose personal data in response to lawful requests by public authorities, including to
                     meet
-                    national security or law enforcement requirements.</p>
-
+                    national security or law enforcement requirements.
+                </p>
                 <p>Please direct any inquiries or complaints regarding our compliance with the Principles to the point
                     of
                     contact listed in the “Questions” section below. If you have an unresolved privacy or data use
@@ -417,8 +416,8 @@
                     provider
                     at https://www.jamsadr.com/eu-us-privacy-shield. JAMS is located in the United States and their
                     services are
-                    provided at no cost to you.</p>
-
+                    provided at no cost to you.
+                </p>
                 <p>Under certain conditions, more fully described on the Privacy Shield website
                     [https://www.privacyshield.gov/article?id=How-to-Submit-a-Complaint], you may be entitled to invoke
                     binding
@@ -426,24 +425,24 @@
 
                 <p>The information you provide may be transferred, processed and/or accessed by us in the United States
                     or
-                    another country where we (or our service providers) operate.</p>
-
+                    another country where we (or our service providers) operate.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Retention</h3>
                 <p>We retain the personal information we receive as described in this Privacy Policy for as long as you
                     use our
                     Services or as necessary to fulfill the purpose(s) for which it was collected, provide our Services,
                     resolve
                     disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our
-                    agreements, and comply with applicable laws.</p>
-
+                    agreements, and comply with applicable laws.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Information Security</h3>
                 <p>Your Account information is protected by a password for your privacy and security. You can prevent
                     unauthorized access to your Account by selecting and protecting your password appropriately, making
                     use of
                     two-factor authentication, and limiting access to your computer and browser by signing off after you
                     have
-                    finished accessing your Account.</p>
-
+                    finished accessing your Account.
+                </p>
                 <p>ShoLC endeavors to protect the information it collects about its users using industry-standard
                     security
                     processes and controls, however, despite these efforts, no security measure is perfect or
@@ -454,13 +453,13 @@
                     notify
                     you if your personal information has been compromised, in accordance with applicable law. If you
                     have any
-                    questions about the security of your personal information, you can contact us at support@sho.lc.</p>
-
+                    questions about the security of your personal information, you can contact us at support@sho.lc.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Choice and Access</h3>
                 <p>You don’t need an Account to create ShoLC Links, and you can use many of the features of the Services
                     without
-                    registering, thereby limiting the type of information that is collected about you individually.</p>
-
+                    registering, thereby limiting the type of information that is collected about you individually.
+                </p>
                 <p>ShoLC acknowledges that you have the right to access your personal information that we collect and
                     are able
                     to associate with you. If you have a ShoLC Account, you may access, correct, or request deletion of
@@ -485,12 +484,12 @@
                     as
                     indicated in the “Questions” section below. In certain circumstances, we may be required by law to
                     retain
-                    your personal information.</p>
-
+                    your personal information.
+                </p>
                 <p>If you do not have a ShoLC account, ShoLC has no way of identifying you or verifying that you created
                     or
-                    clicked on a ShoLC link.</p>
-
+                    clicked on a ShoLC link.
+                </p>
                 <p>Please note that in the interest of ensuring that existing ShoLC Links continue to function for all
                     of our
                     users, the ShoLC Links that you have created and shared cannot be deleted or disabled (even if your
@@ -499,15 +498,14 @@
                     cannot
                     be deleted. If you have concerns about any unauthorized use of your Account, you can delete your
                     account
-                    within your Account settings.</p>
-
+                    within your Account settings.
+                </p>
                 <p>Please see the Cookie section above for additional choices you may have.</p>
-
                 <h3 class="font-bold uppercase mt-3 mb-1">Supervisory Authority</h3>
                 <p>If you are located in the European Economic Area, you have the right to lodge a complaint with a
                     supervisory
-                    authority if you believe our Processing of your Personal Information violates applicable law.</p>
-
+                    authority if you believe our Processing of your Personal Information violates applicable law.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Changes to This Privacy Policy</h3>
                 <p>ShoLC may amend this Privacy Policy from time to time. If we make material changes in the way we
                     collect or
@@ -515,27 +513,25 @@
                     email, and
                     we will indicate when those changes will become effective. You are agreeing to be bound by any
                     changes to
-                    the Privacy Policy when you use the Services after those changes become effective.</p>
-
+                    the Privacy Policy when you use the Services after those changes become effective.
+                </p>
                 <h3 class="font-bold uppercase mt-3 mb-1">Questions?</h3>
                 <p>If you have any questions or concerns regarding privacy using the Services, please send us a detailed
                     message
-                    to: privacy@sho.lc. We will make every effort to resolve your concerns.</p>
-
+                    to: privacy@sho.lc. We will make every effort to resolve your concerns.
+                </p>
                 <p>You may also contact us at 139 Fifth Avenue, 5th Floor, New York, NY 10010.</p>
             </div>
         </div>
     </div>
-
 </template>
-
 <script>
-import navigator from '../../app/Header'
+    import navigator from '../../app/Header'
 
-export default {
-    name: "PrivacyPolicy",
-    components: {
-        navigator
+    export default {
+        name: "PrivacyPolicy",
+        components: {
+            navigator
+        }
     }
-}
 </script>
