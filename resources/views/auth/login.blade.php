@@ -2,6 +2,6 @@
 
 @section('content')
     <div id="app">
-        <Login postUrl="{{ route('login_post') }}" token='{{  csrf_token() }}'></Login>
+        <Login postUrl="{{ route('login_post') }}"></Login>
     </div>
 @endsection
