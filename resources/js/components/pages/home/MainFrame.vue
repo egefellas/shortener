@@ -20,12 +20,12 @@
                 <div class="mt-2 flex">
                     <input
                         v-model="link"
-                        class="sm:w-9/12 rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+                        class="sm:w-8/12 rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
                         placeholder="Shorten Your Url"/>
                     <button
                         @click="shortenUrl"
                         class="px-8 rounded-r-lg text-white bg-indigo-600 hover:bg-indigo-700 font-bold p-4 uppercase border-transparent border-t border-b border-r">
-                        SHORTEN
+                        →
                     </button>
                 </div>
                 <div
