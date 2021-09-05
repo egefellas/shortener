@@ -22,7 +22,8 @@ Route::get('/privacy-policy', function () {
     return view('pages.privacy-policy');
 })->name('privacy');
 Route::name('url.')->group(function () {
-    Route::get('{url}', [UrlController::class, 'getUrl'])->name('get');
+    Route::get('{url}', [UrlController::class, 'getUrl'])
+        ->name('get');
 });
 Route::get('/dashboard', function () {
     return view('dashboard');

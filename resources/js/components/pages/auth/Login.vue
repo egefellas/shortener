@@ -100,12 +100,12 @@
 </template>
 
 <script>
-import { LockClosedIcon } from '@heroicons/vue/solid'
+    import { LockClosedIcon } from '@heroicons/vue/solid'
 
-export default {
-    components: {
-        LockClosedIcon
-    },
-    props: ['postUrl']
-}
+    export default {
+        components: {
+            LockClosedIcon
+        },
+        props: ['postUrl']
+    }
 </script>

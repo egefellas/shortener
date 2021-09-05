@@ -127,29 +127,29 @@
 </template>
 
 <script>
-import { LockClosedIcon } from '@heroicons/vue/solid'
-import axios from 'axios'
+    import { LockClosedIcon } from '@heroicons/vue/solid'
+    import axios from 'axios'
 
-export default {
-    data() {
-        return {
-            formdata: {firstname: '', lastname: '', email: '', password: '', password_confirmation: ''}
+    export default {
+        data () {
+            return {
+                formdata: { firstname: '', lastname: '', email: '', password: '', password_confirmation: '' }
+            }
+        },
+        methods: {
+            submitform: function () {
+                axios.post('/register', this.formdata)
+                    .then(res => {
+                        console.log(res)
+                    })
+                    .catch(err => {
+                        console.log(err)
+                    })
+            },
+            components: {
+                LockClosedIcon
+            },
+            props: ['postUrl']
         }
-    },
-    methods: {
-        submitform: function () {
-            axios.post('/register', this.formdata)
-                .then(res => {
-                    console.log(res)
-                })
-                .catch(err => {
-                    console.log(err)
-                })
-        },
-        components: {
-            LockClosedIcon
-        },
-        props: ['postUrl']
     }
-}
 </script>
