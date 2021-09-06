@@ -173,7 +173,8 @@
                         </transition>
                     </Popover>
                 </PopoverGroup>
-                <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                <div
+                    class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                     <a
                         href="/login"
                         class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
@@ -186,6 +187,9 @@
                         hover:bg-indigo-700">
                         Sign up
                     </a>
+                </div>
+                <div>
+                    <dropdown></dropdown>
                 </div>
             </div>
         </div>
@@ -302,6 +306,7 @@
         XIcon
     } from '@heroicons/vue/outline'
     import { ChevronDownIcon } from '@heroicons/vue/solid'
+    import Dropdown from '../pages/elements/Dropdown'
 
     const solutions = [
         {
@@ -369,7 +374,8 @@
             PopoverPanel,
             ChevronDownIcon,
             MenuIcon,
-            XIcon
+            XIcon,
+            Dropdown
         },
         setup () {
             return {

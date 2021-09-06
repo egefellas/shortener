@@ -4,6 +4,7 @@ import Redirect from './components/pages/redirect/Index.vue'
 import PrivacyPolicy from './components/pages/legal/PrivacyPolicy'
 import Login from './components/pages/auth/Login'
 import Register from './components/pages/auth/Register'
+import Dashboard from './components/pages/Dashboard'
 
 require('./bootstrap')
 require('alpinejs')
@@ -16,7 +17,8 @@ const app = createApp({
         Redirect,
         PrivacyPolicy,
         Login,
-        Register
+        Register,
+        Dashboard
     }
 })
 

@@ -12,7 +12,7 @@
                 <p class="mt-2 text-center text-sm text-gray-600">
                     Already have an account?
                     <a
-                        href="/login"
+                        :href="routes.LOGIN_URL"
                         class="font-medium text-indigo-600 hover:text-indigo-500">
                         Sing In
                     </a>
@@ -100,7 +100,7 @@
                 <div class="flex items-center justify-end">
                     <div class="text-sm"> You have an account?
                         <a
-                            href="/login"
+                            :href="routes.LOGIN_URL"
                             class="font-medium text-indigo-600 hover:text-indigo-500">
                             Sing in
                         </a>
@@ -129,16 +129,18 @@
 <script>
     import { LockClosedIcon } from '@heroicons/vue/solid'
     import axios from 'axios'
+    import { Routes } from '../../../enums/GeneralEnums'
 
     export default {
         data () {
             return {
-                formdata: { firstname: '', lastname: '', email: '', password: '', password_confirmation: '' }
+                formdata: { firstname: '', lastname: '', email: '', password: '', password_confirmation: '' },
+                routes: Routes
             }
         },
         methods: {
             submitform: function () {
-                axios.post('/register', this.formdata)
+                axios.post(this.routes.REGISTER_POST_URL, this.formdata)
                     .then(res => {
                         console.log(res)
                     })
