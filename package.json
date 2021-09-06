@@ -17,7 +17,7 @@
         "@vue/compiler-sfc": "^3.2.4",
         "alpinejs": "^2.7.3",
         "autoprefixer": "^10.1.0",
-        "axios": "^0.21",
+        "axios": "^0.21.1",
         "browser-sync": "^2.27.5",
         "browser-sync-webpack-plugin": "^2.3.0",
         "eslint": "^7.32.0",
@@ -40,6 +40,7 @@
         "@heroicons/vue": "^1.0.4",
         "@vue-hero-icons/outline": "^1.7.2",
         "@vue-hero-icons/solid": "^1.7.2",
+        "raw-loader": "^4.0.2",
         "vue": "^3.2.4"
     }
 }

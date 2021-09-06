@@ -2,6 +2,6 @@
 
 @section('content')
     <div id="app">
-        <dashboard></dashboard>
+        <privacy-policy></privacy-policy>
     </div>
 @endsection
